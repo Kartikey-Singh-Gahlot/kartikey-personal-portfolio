@@ -210,9 +210,6 @@
   .-left-0\.5 {
     left: calc(var(--spacing) * -0.5);
   }
-  .left-0 {
-    left: calc(var(--spacing) * 0);
-  }
   .left-1 {
     left: calc(var(--spacing) * 1);
   }
@@ -224,9 +221,6 @@
   }
   .z-20 {
     z-index: 20;
-  }
-  .z-50 {
-    z-index: 50;
   }
   .m-1 {
     margin: calc(var(--spacing) * 1);
@@ -312,9 +306,6 @@
   .w-full {
     width: 100%;
   }
-  .w-screen {
-    width: 100vw;
-  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -390,9 +381,6 @@
   .items-end {
     align-items: flex-end;
   }
-  .items-start {
-    align-items: flex-start;
-  }
   .justify-around {
     justify-content: space-around;
   }
@@ -402,14 +390,8 @@
   .justify-center {
     justify-content: center;
   }
-  .justify-end {
-    justify-content: flex-end;
-  }
   .justify-evenly {
     justify-content: space-evenly;
-  }
-  .justify-start {
-    justify-content: flex-start;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -420,38 +402,20 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
-  .gap-8 {
-    gap: calc(var(--spacing) * 8);
-  }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
   .overflow-hidden {
     overflow: hidden;
   }
-  .overflow-y-auto {
-    overflow-y: auto;
-  }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
-  }
-  .rounded-\[5px\] {
-    border-radius: 5px;
   }
   .rounded-\[10px\] {
     border-radius: 10px;
   }
-  .rounded-\[15px\] {
-    border-radius: 15px;
-  }
-  .rounded-\[px\] {
-    border-radius: px;
-  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
-  }
-  .rounded-none {
-    border-radius: 0;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -472,14 +436,6 @@
   .border-\[3px\] {
     border-style: var(--tw-border-style);
     border-width: 3px;
-  }
-  .border-r {
-    border-right-style: var(--tw-border-style);
-    border-right-width: 1px;
-  }
-  .border-r-\[1px\] {
-    border-right-style: var(--tw-border-style);
-    border-right-width: 1px;
   }
   .border-b-2 {
     border-bottom-style: var(--tw-border-style);
@@ -504,23 +460,11 @@
   .border-\[\#00000000\] {
     border-color: #00000000;
   }
-  .border-\[\#ffffff9c\] {
-    border-color: #ffffff9c;
-  }
-  .border-\[white\] {
-    border-color: white;
-  }
   .border-amber-50 {
     border-color: var(--color-amber-50);
   }
   .border-black {
     border-color: var(--color-black);
-  }
-  .border-blue-900 {
-    border-color: var(--color-blue-900);
-  }
-  .border-b-\[\#ffffff9c\] {
-    border-bottom-color: #ffffff9c;
   }
   .border-b-white {
     border-bottom-color: var(--color-white);
@@ -536,9 +480,6 @@
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
-  }
-  .bg-red-600 {
-    background-color: var(--color-red-600);
   }
   .bg-gradient-to-r {
     --tw-gradient-position: to right in oklab;
@@ -610,9 +551,6 @@
   }
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
-  }
-  .px-50 {
-    padding-inline: calc(var(--spacing) * 50);
   }
   .py-0 {
     padding-block: calc(var(--spacing) * 0);
@@ -850,11 +788,6 @@
   .min-\[780px\]\:border-\[black\] {
     @media (width >= 780px) {
       border-color: black;
-    }
-  }
-  .min-\[780px\]\:border-black {
-    @media (width >= 780px) {
-      border-color: var(--color-black);
     }
   }
   .min-\[780px\]\:py-3 {
