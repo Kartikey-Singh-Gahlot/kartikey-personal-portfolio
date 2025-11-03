@@ -2,14 +2,14 @@
 
 import "./globals.css";
 import Button from '@mui/material/Button';
-import Projects from "./Projects.jsx";
-import Headings from "./Headings.jsx";
-import List from "./List.jsx";
-import Skills from "./Skills.jsx";
+import Projects from "./Projects.js";
+import Headings from "./Headings.js";
+import List from "./List.js";
+import Skills from "./Skills.js";
 import {mailLink, cvLink, myPicLink, headerData, navData , hrData, backendApiBaseUrl} from "./tools.js" ;
 import { useState, useEffect } from "react";
 import Experience from "./Experience.js";
-import Loader from "./Loader.jsx";
+import Loader from "./Loader.js";
 
 
 export default function Home(){

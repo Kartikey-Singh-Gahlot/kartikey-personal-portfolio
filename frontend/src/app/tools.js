@@ -1,5 +1,5 @@
 
-export const cvLink = "https://drive.google.com/drive/folders/1_WTzo8h81c0G30zUlUjkWv-Bg2cThKfH";
+export const cvLink = "https://drive.google.com/file/d/1EGSCiaLffQQDyVrGbVIv-r6Z3qB-J2dP/view";
 export const mailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=2002gehlotkartikeysingh@gmail.com&su=Hiring&body=Hi%20Kartikey";
 export const myPicLink = "/kartikeyPic.png";
 
