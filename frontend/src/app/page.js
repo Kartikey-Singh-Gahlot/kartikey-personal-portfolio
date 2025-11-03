@@ -24,7 +24,7 @@ let [navStyle, setNavStyle] = useState(navData[0]);
 let [hrStyle, setHrStyle] = useState(hrData[0]);
 
 const getData = async ()=>{ 
-   const unprocessed = await fetch(`${process.env.BACKENDURL}/description`);
+   const unprocessed = await fetch(`${process.env.NEXT_PUBLIC_BACKENDURL}/description`);
    const processed = await unprocessed.json();
    setDescriptionData(processed.body); 
  }
