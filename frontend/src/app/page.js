@@ -1,5 +1,6 @@
-import "./Output.css";
-import "./Input.css";
+"use client";
+
+import "./globals.css";
 import Button from '@mui/material/Button';
 import Projects from "./Projects.jsx";
 import Headings from "./Headings.jsx";
@@ -11,7 +12,7 @@ import Experience from "./Experience.jsx";
 import Loader from "./Loader.jsx";
 
 
-export default function App(){
+export default function Home(){
 
 
 let [descriptionData, setDescriptionData] = useState(null);
@@ -23,7 +24,7 @@ let [navStyle, setNavStyle] = useState(navData[0]);
 let [hrStyle, setHrStyle] = useState(hrData[0]);
 
 const getData = async ()=>{ 
-   const unprocessed = await fetch(`${backendApiBaseUrl}/description`);
+   const unprocessed = await fetch(`${process.env.BACKENDURL}/description`);
    const processed = await unprocessed.json();
    setDescriptionData(processed.body); 
  }

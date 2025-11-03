@@ -1,9 +1,8 @@
-import "./Output.css";
 
 export default function List({mainLi, subLi, link, linkTarget, subLink, onClk}){
 
  if(subLi){
-    let subItems = subLi.map((i,idx)=>{return <a href={subLink[idx]}><li className="hover:bg-blue-700  hover:border-black text-[15px] text-amber-50 w-full py-1 px-6 text-center border-[1px] rounded-3xl border-amber-50 bg-black my-2">{i}</li> </a>});
+    let subItems = subLi.map((i,idx)=>{return <a href={subLink[idx]}><li key={idx} className="hover:bg-blue-700  hover:border-black text-[15px] text-amber-50 w-full py-1 px-6 text-center border-[1px] rounded-3xl border-amber-50 bg-black my-2">{i}</li> </a>});
     return (
     <ul>
         <li className="relative mainBox">
