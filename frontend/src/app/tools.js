@@ -1,5 +1,5 @@
 
-export const cvLink = "/KartikeySinghGahlotCv.pdf";
+export const cvLink = "/Kartikey_Singh_Gahlot_Cv.pdf";
 export const mailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=2002gehlotkartikeysingh@gmail.com&su=Hiring&body=Hi%20Kartikey";
 export const myPicLink = "/kartikeyPic.png";
 

@@ -8,7 +8,7 @@ import List from "./List.jsx";
 import Skills from "./Skills.jsx";
 import {mailLink, cvLink, myPicLink, headerData, navData , hrData, backendApiBaseUrl} from "./tools.js" ;
 import { useState, useEffect } from "react";
-import Experience from "./Experience.jsx";
+import Experience from "./Experience.js";
 import Loader from "./Loader.jsx";
 
 
